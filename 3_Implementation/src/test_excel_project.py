@@ -1,4 +1,4 @@
-from excel_project import SemesterMarks, HobbiesList, CitiesVisited, ProgrammingLanguage, SportsList
+from .excel_project import SemesterMarks, HobbiesList, CitiesVisited, ProgrammingLanguage, SportsList
 
 class TestSemesterMarks:
     def test_semester_fun1(self):

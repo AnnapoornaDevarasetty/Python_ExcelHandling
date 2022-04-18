@@ -28,9 +28,9 @@ class SemesterMarks:
         :return:The Requested data will be entered into a file NewData.xlsx
         """
         try:
-            excel_document = openpyxl.load_workbook("3_Implementation/src/Data.xlsx")
+            excel_document = openpyxl.load_workbook("Data.xlsx")
             # Path to store the new excel file
-            filepath = "3_Implementation/src/NewData.xlsx"
+            filepath = "NewData.xlsx"
             work_book = openpyxl.load_workbook(filepath)
             updated_sheet = work_book.active
 
@@ -86,9 +86,9 @@ class HobbiesList:
         :return:The Requested data will be entered into a file NewData.xlsx
         """
         try:
-            excel_document = openpyxl.load_workbook("3_Implementation/src/Data.xlsx")
+            excel_document = openpyxl.load_workbook("Data.xlsx")
             # Path to store the new excel file
-            filepath = "3_Implementation/src/NewData.xlsx"
+            filepath = "NewData.xlsx"
             work_book = openpyxl.load_workbook(filepath)
             updated_sheet = work_book.active
             # Creating a tuple filtered values to enter the data
@@ -143,9 +143,9 @@ class CitiesVisited:
         :return:The Requested data will be entered into a file NewData.xlsx
         """
         try:
-            excel_document = openpyxl.load_workbook("3_Implementation/src/Data.xlsx")
+            excel_document = openpyxl.load_workbook("Data.xlsx")
             # Path to store the new excel file
-            filepath = "3_Implementation/src/NewData.xlsx"
+            filepath = "NewData.xlsx"
             work_book = openpyxl.load_workbook(filepath)
             updated_sheet = work_book.active
             # Creating a tuple filtered values to enter the data
@@ -200,9 +200,9 @@ class ProgrammingLanguage:
         :return:The Requested data will be entered into a file NewData.xlsx
         """
         try:
-            excel_document = openpyxl.load_workbook("3_Implementation/src/Data.xlsx")
+            excel_document = openpyxl.load_workbook("Data.xlsx")
             # Path to store the new excel file
-            filepath = "3_Implementation/src/NewData.xlsx"
+            filepath = "NewData.xlsx"
             work_book = openpyxl.load_workbook(filepath)
             updated_sheet = work_book.active
             # Creating a tuple filtered values to enter the data
@@ -257,9 +257,9 @@ class SportsList:
         :return:The Requested data will be entered into a file NewData.xlsx
         """
         try:
-            excel_document = openpyxl.load_workbook("3_Implementation/src/Data.xlsx")
+            excel_document = openpyxl.load_workbook("Data.xlsx")
             # Path to store the new excel file
-            filepath = "3_Implementation/src/NewData.xlsx"
+            filepath = "NewData.xlsx"
             work_book = openpyxl.load_workbook(filepath)
             updated_sheet = work_book.active
             # Creating a tuple filtered values to enter the data
