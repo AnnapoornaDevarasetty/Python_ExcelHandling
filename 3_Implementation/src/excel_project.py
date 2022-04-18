@@ -8,7 +8,6 @@
 """
 import openpyxl
 
-
 class SemesterMarks:
     """
     Class for the getting the Semester Marks of the given PS Number
